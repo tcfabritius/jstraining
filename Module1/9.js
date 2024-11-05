@@ -1,4 +1,5 @@
-let syote = prompt("Anna luku:")
+'use strict';
+let syote = prompt("Anna luku:");
 let luku = parseInt(syote);
 let jaolliset = 0;
 for (let i = 0; i < syote; i++) {

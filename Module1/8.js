@@ -1,3 +1,4 @@
+'use strict';
 let aloitusvuosi = prompt("Anna aloitusvuosi:");
 vuosi = parseInt(aloitusvuosi);
 let input = prompt("Anna lopetusvuosi:");

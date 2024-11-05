@@ -1,3 +1,4 @@
+'use strict';
 let luku1 = prompt("Anna luku1");
 luku1 = luku1.parseInt();
 let luku2 = prompt("Anna luku2");

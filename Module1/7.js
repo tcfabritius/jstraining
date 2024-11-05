@@ -1,3 +1,4 @@
+'use strict';
 const dices = prompt("Enter amount of dices");
 let summa = 0;
 for (i = 0; i < dices; i++) {

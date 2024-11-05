@@ -1,3 +1,4 @@
+'use strict';
 const calc = confirm("Should I calculate the square root?");
 if (calc === true){
   const nro = prompt("Anna luku:");
