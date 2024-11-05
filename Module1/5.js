@@ -1,5 +1,5 @@
 'use strict';
-let vuosi = prompt("Anna vuosi: ");
+const vuosi = prompt("Anna vuosi: ");
 if (vuosi % 4 === 0) {
   document.querySelector('#text').innerHTML = "Vuosi on karkausvuosi";
 } else if (vuosi % 100 === 0) {

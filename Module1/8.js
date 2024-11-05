@@ -1,8 +1,8 @@
 'use strict';
-let aloitusvuosi = prompt("Anna aloitusvuosi:");
-vuosi = parseInt(aloitusvuosi);
-let input = prompt("Anna lopetusvuosi:");
-lopetusvuosi = parseInt(input);
+const aloitusvuosi = prompt("Anna aloitusvuosi:");
+let vuosi = parseInt(aloitusvuosi);
+const input = prompt("Anna lopetusvuosi:");
+const lopetusvuosi = parseInt(input);
 let karkausvuodet = [];
 while (vuosi !== lopetusvuosi+1) {
   if (vuosi % 4 === 0) {
@@ -14,7 +14,7 @@ while (vuosi !== lopetusvuosi+1) {
   }
   vuosi++;
 }
-for (i = 0; i < karkausvuodet.length; i++) {
+for (let i = 0; i < karkausvuodet.length; i++) {
   let li = document.createElement("li");
   li.innerText = karkausvuodet[i];
   document.querySelector('#lista').appendChild(li);

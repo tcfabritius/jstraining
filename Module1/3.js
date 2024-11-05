@@ -9,3 +9,5 @@ luku3 = luku3.parseInt();
 const summa = luku1 + luku2 + luku3;
 const tulo = luku1 * luku2 * luku3;
 const keskiarvo = summa / 3;
+
+document.querySelector("#demo").innerHTML = summa + " " + tulo + " " + keskiarvo;
