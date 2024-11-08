@@ -1,7 +1,7 @@
 'use strict';
 let koirat = [];
 for (let i = 1; i <= 6; i++) {
-  nimi=prompt("Anna koiran nimi");
+  let nimi=prompt("Anna koiran nimi");
   koirat.push(nimi);
 }
 koirat = koirat.sort().reverse();

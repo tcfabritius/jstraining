@@ -1,9 +1,9 @@
 'use strict';
-lkm = prompt("Anna osallistujien lukumäärä: ");
+let lkm = prompt("Anna osallistujien lukumäärä: ");
 lkm = parseInt(lkm);
-osallistujat = [];
-for (i = 0; i < lkm; i++) {
-  osallistuja = prompt("Anna osallistujan nimi")
+let osallistujat = [];
+for (let i = 0; i < lkm; i++) {
+  let osallistuja = prompt("Anna osallistujan nimi")
   osallistujat.push(osallistuja);
 }
 osallistujat = osallistujat.sort();

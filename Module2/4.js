@@ -1,7 +1,7 @@
 'use strict';
 let input=1;
 let luvut=[];
-while (input != 0){
+while (input !== 0){
   input = prompt("Anna luku");
 
   luvut.push(input);
