@@ -1,8 +1,6 @@
 'use strict';
 const nimi = prompt("Anna nimi");
-const minCeiled = Math.ceil(1);
-const maxFloored = Math.floor(4);
-const nro = Math.floor(Math.random() * (maxFloored - minCeiled) + minCeiled);
+const nro = Math.floor(Math.random() * 4 + 1);
 if (nro === 1){
   document.querySelector("#text").innerHTML = nimi + ", Olet Rohkelikko";
 } else if (nro === 2){

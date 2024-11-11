@@ -1,5 +1,5 @@
 'use strict';
-const calc = confirm("Should I calculate the square root?");
+let calc = confirm("Should I calculate the square root?");
 if (calc === true){
   const nro = parseInt(prompt("Anna luku:"));
   if (nro >= 0){
