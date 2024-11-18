@@ -7,8 +7,8 @@ for (let i = 0; i < lkm; i++) {
   osallistujat.push(osallistuja);
 }
 osallistujat = osallistujat.sort();
-for (let x = 0; x < osallistujat.length; x++) {
+for (let i = 0; i < osallistujat.length; i++) {
   let li = document.createElement("li");
-  li.innerText = osallistujat[x];
+  li.innerText = osallistujat[i];
   document.querySelector('#lista').appendChild(li);
 }

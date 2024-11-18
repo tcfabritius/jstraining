@@ -1,10 +1,11 @@
 'use strict';
-let diceValues = [];
-let diceValue = 0;
-
 function rollDice() {
   return Math.floor(Math.random() * 6) + 1;
 }
+
+let diceValues = [];
+let diceValue = 0;
+
 while (diceValue !== 6){
   diceValue = rollDice();
   diceValues.push(diceValue);

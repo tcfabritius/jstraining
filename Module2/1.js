@@ -5,6 +5,6 @@ for (let i = 0; i < 5; i++) {
   syöte = parseInt(syöte);
   luvut.push(syöte);
 }
-for (let x = 5; x >= 0 ; x--) {
-  console.log(luvut[x]);
+for (let i = luvut.length-1; i >= 0 ; i--) {
+  console.log(luvut[i]);
 }

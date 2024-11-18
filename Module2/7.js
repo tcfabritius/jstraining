@@ -1,11 +1,12 @@
 'use strict';
-let diceValues = [];
-let diceValue = 0;
-let sizes = 21;
-
 function rollDice(size) {
   return Math.floor(Math.random() * size) + 1;
 }
+
+let diceValues = [];
+let diceValue = 0;
+let sizes = parseInt(prompt("Anna tahkojen lkm: "));
+
 while (diceValue !== sizes){
   diceValue = rollDice(sizes);
   diceValues.push(diceValue);

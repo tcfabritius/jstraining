@@ -5,8 +5,9 @@ for (let i = 1; i <= 6; i++) {
   koirat.push(nimi);
 }
 koirat = koirat.sort().reverse();
-for (let j = 0; j < koirat.length; j++) {
+for (let i = 0; i < koirat.length; i++) {
   let li = document.createElement("li");
-  li.innerText = koirat[j];
+  li.innerText = koirat[i];
   document.querySelector('#lista').appendChild(li);
+  document.querySelector('#lista').innerHTML += "<li>" + koirat[i] + "</li>";
 }
